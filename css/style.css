@@ -1,0 +1,39 @@
+/* 𝗡𝗔𝗦𝗦𝗬𝗢𝗡𝗔𝗟.𝗖𝗢𝗠 | 𝟮$*/
+ul {
+    list-style-type: none;
+    margin: 1;
+    padding: 1;
+    padding-right: 10px;
+    padding-left: 15px;
+    overflow: hidden;
+    background-color: transparent;
+    
+  }
+  
+  li {
+    float: right;
+    
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    color: #007bff;
+  }
+
+.search {
+    color: white;
+    font-family: 'Permanent Marker';
+}
+
+/* 𝗡𝗔𝗦𝗦𝗬𝗢𝗡𝗔𝗟.𝗖𝗢𝗠 | 𝟮$*/
